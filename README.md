@@ -5,7 +5,7 @@ This repository hosts maps depicting the hotspots of various metrics of marine h
 ## Description
 
 | Metrics              | Description                               | Image Filename |
-|----------------------|-------------------------------------------|----------------|
+|-------------------|-----------------------------------|------------------|
 | Duration             | Total days or period of a MHW occurrence  | duration.png   |
 | Frequency            | Number of MHW events in a year            | frequency.png  |
 | Cumulative Intensity | Sum of the daily anomalies during an MHW  | icum.png       |
@@ -14,11 +14,11 @@ This repository hosts maps depicting the hotspots of various metrics of marine h
 
 ## Limitations
 
-The analysis is based on the sea surface temperature anomalies that are more than the 90th percentile of the mean climatology from January 1, 1982 to December 31, 2011. Values were re-gridded through spline interpolation.
+The analysis is based on the sea surface temperature anomalies that are more than the 90th percentile of the mean climatology from January 1, 2003 to August 31, 2023 . Values were re-gridded through spline interpolation.
 
 ## Data Source
 
-This analysis used the daily Global Ocean OSTIA Sea Surface Temperature and Sea Ice Reprocessed dataset from the Copernicus Marine Service covering the period January 1, 1982 to December 31, 2021 with 0.05 deg x 0.05 deg spatial resolution.
+The analysis used the daily Multi-scale Ultra-high Resolution Sea Surface Temperature dataset from the National Aeronautics and Space Administration covering the period January 1, 2003 to August 31, 2023 with 0.001° x 0.001° spatial resolution.
 
 ## Acknowledgement
 
